@@ -1,0 +1,89 @@
+body
+{
+    background: #2596be;
+    margin: 0;
+}
+
+.header
+{
+    height: 250px;
+    background: whitesmoke;
+    background-image: url(images/bkgdimage.jpg);
+
+    background-size:  cover;
+    background-position: center;
+    position: relative;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+
+}
+.h1{
+    color: white;
+}
+
+.navbar
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color: white;
+    z-index: 2;
+    color:  white;
+}
+
+.link
+{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    /* justify-content:space-between; */
+}
+
+.link li a{
+    text-decoration:  none;
+    color: white;
+    font-size:  20px;
+    transition:  color 0,3 s;
+}
+
+.link li a:hover
+{
+    color: cadetblue;
+}
+.main {
+            padding: 20px;
+    }
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin-top: 0;
+}
+.footer
+{
+
+}
